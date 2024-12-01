@@ -3,14 +3,18 @@
     "newArchEnabled": true,
     "name": "StravaApp",
     "slug": "strava-app",
-    "platforms": ["ios", "android"],
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#ffffff",
+      "backgroundImage": "./assets/background.png"  
     },
     "assetBundlePatterns": [
       "**/*"
@@ -26,6 +30,11 @@
       "icon": "./assets/icon.png"
     },
     "description": "A simple React Native app for tracking stats.",
-    "scheme": "stravaapp"
+    "scheme": "stravaapp",
+    "extra": {
+      "eas": {
+        "projectId": "815a4263-c593-4e94-b2c0-72c9a241f298"
+      }
+    }
   }
 }

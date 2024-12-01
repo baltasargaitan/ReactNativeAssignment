@@ -14,7 +14,7 @@ export default function AuthScreen() {
 
   return (
     <ImageBackground
-      source={require('../../assets/background.jpg')} // Background image
+      source={require('../../assets/background.png')} // Background image
       style={styles.background}
     >
       <View style={styles.container}>
