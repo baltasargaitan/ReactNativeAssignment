@@ -28,7 +28,7 @@ Excerpt from README: The application gracefully handles network errors and also 
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/baltasargaitan/ReactNativeAssignament.git
-   cd react-native-strava-app
+   cd react-native-app
    ```
 
 2. **Install dependencies**:
