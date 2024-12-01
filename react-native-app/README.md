@@ -27,7 +27,7 @@ Excerpt from README: The application gracefully handles network errors and also 
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/react-native-strava-app.git
+   git clone https://github.com/baltasargaitan/ReactNativeAssignament.git
    cd react-native-strava-app
    ```
 
