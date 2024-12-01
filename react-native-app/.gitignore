@@ -1,0 +1,39 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Expo and React Native build files
+.expo/
+.expo-shared/
+build/
+dist/
+web-build/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE and editor configurations
+.vscode/
+.idea/
+*.swp
+
+# Expo-specific files (including builds)
+*.apk
+*.ipa
+
+# Generated files by Expo and other tools
+*.keystore
+*.p12
+*.pem
+*.jks
+*.key
+*.keychain
+
+# Configuration files with sensitive information (like environment variables)
+.env
